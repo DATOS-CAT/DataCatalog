@@ -111,6 +111,9 @@ class MicaDictionary:
 
             elif sheet_name == "Table Overview":
                 pass
+
+            elif sheet_name == "_":
+                pass
             
             else:
                 df_category = self.create_category_sheet(df, table_name_list[count])
